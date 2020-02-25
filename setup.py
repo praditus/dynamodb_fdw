@@ -9,7 +9,7 @@ def read(fname):
 
 setup(
     name='DynamodbFdw',
-    version='0.1.1',
+    version='0.1.2',
     author='Fabio Rueda',
     author_email='avances123@gmail.com',
     packages=['dynamodbfdw'],
@@ -18,5 +18,5 @@ setup(
     description='Postgresql Foregin Data Wrapper mapping Amazon DynamoDB',
     #long_description=open('README.txt').read(),
     #long_description=read('README.txt'),
-    install_requires=["boto"],
+    install_requires=["boto3"],
 )
